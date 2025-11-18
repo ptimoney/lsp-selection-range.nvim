@@ -29,7 +29,7 @@ word → identifier → expression → statement → block → function → file
 
 ```lua
 {
-  "yourusername/lsp-selection-range.nvim",
+  "ptimoney/lsp-selection-range.nvim",
   config = function()
     require("lsp-selection-range").setup()
   end,
@@ -40,7 +40,7 @@ word → identifier → expression → statement → block → function → file
 
 ```lua
 use {
-  "yourusername/lsp-selection-range.nvim",
+  "ptimoney/lsp-selection-range.nvim",
   config = function()
     require("lsp-selection-range").setup()
   end,
@@ -50,7 +50,7 @@ use {
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'yourusername/lsp-selection-range.nvim'
+Plug 'ptimoney/lsp-selection-range.nvim'
 
 lua << EOF
 require("lsp-selection-range").setup()
